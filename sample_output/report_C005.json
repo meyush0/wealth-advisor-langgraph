@@ -1,0 +1,23 @@
+{
+  "client_id": "C005",
+  "client": null,
+  "status": "failed",
+  "advice": "NONE",
+  "risk": null,
+  "anomalies": [],
+  "recommendations": [],
+  "human_review": {},
+  "data_issues": [
+    "monthly_income missing"
+  ],
+  "crm_source": null,
+  "warnings": [],
+  "errors": [
+    "no usable holdings or transactions"
+  ],
+  "trace": [
+    "supervisor -> fetcher",
+    "fetcher: nothing to analyse",
+    "supervisor -> finalize"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "client_id": "C001",
+  "client": "Priya Nair",
+  "status": "completed",
+  "advice": "RELEASED",
+  "risk": {
+    "score": 10,
+    "level": "LOW",
+    "parts": {
+      "concentration": 0,
+      "profile_mismatch": 0,
+      "anomalies": 10
+    },
+    "previous_score": null
+  },
+  "anomalies": [
+    {
+      "type": "outlier",
+      "severity": "MEDIUM",
+      "txn": "C001-T0139",
+      "detail": "Whole Foods $520 is 6.7 std-devs above usual 'groceries' spend"
+    },
+    {
+      "type": "duplicate",
+      "severity": "MEDIUM",
+      "txn": "C001-T0141",
+      "detail": "possible duplicate charge Trattoria Verde $86.40"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "MEDIUM",
+      "title": "Review 2 unusual transaction(s)",
+      "why": "Whole Foods $520 is 6.7 std-devs above usual 'groceries' spend; possible duplicate charge Trattoria Verde $86.40"
+    },
+    {
+      "priority": "MEDIUM",
+      "title": "Rebalance toward target (max drift 5%)",
+      "why": "allocation drifted from target"
+    }
+  ],
+  "human_review": {
+    "status": "not_required"
+  },
+  "data_issues": [],
+  "crm_source": "live",
+  "warnings": [],
+  "errors": [],
+  "trace": [
+    "supervisor -> fetcher",
+    "fetcher: ok (crm=live, issues=0)",
+    "supervisor -> analyzer",
+    "analyzer: risk=10 (LOW), anomalies=2",
+    "supervisor -> advisor",
+    "advisor: 2 recommendations",
+    "supervisor -> human_review",
+    "review: not required",
+    "supervisor -> finalize"
+  ]
+}

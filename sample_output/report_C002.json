@@ -1,0 +1,70 @@
+{
+  "client_id": "C002",
+  "client": "Marcus Webb",
+  "status": "completed_with_warnings",
+  "advice": "HELD_FOR_REVIEW",
+  "risk": {
+    "score": 60,
+    "level": "HIGH",
+    "parts": {
+      "concentration": 30,
+      "profile_mismatch": 17.8,
+      "anomalies": 12
+    },
+    "previous_score": null
+  },
+  "anomalies": [
+    {
+      "type": "risky_category",
+      "severity": "HIGH",
+      "txn": "C002-T0139",
+      "detail": "crypto spend $4,200 (49% of monthly income)"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "title": "Verify high-severity transactions with client",
+      "why": "crypto spend $4,200 (49% of monthly income)"
+    },
+    {
+      "priority": "HIGH",
+      "title": "Reduce concentration in ACME (84%)",
+      "why": "single-name exposure above 20% guideline"
+    },
+    {
+      "priority": "HIGH",
+      "title": "Rebalance toward target (max drift 28%)",
+      "why": "allocation drifted from target"
+    },
+    {
+      "priority": "HIGH",
+      "title": "Equity 88% exceeds 'moderate' risk tolerance",
+      "why": "suitability check required"
+    }
+  ],
+  "human_review": {
+    "reasons": [
+      "risk score 60 >= 60",
+      "high-severity anomaly",
+      "suitability/compliance issue"
+    ],
+    "note": "no reviewer available",
+    "status": "pending"
+  },
+  "data_issues": [],
+  "crm_source": "live",
+  "warnings": [],
+  "errors": [],
+  "trace": [
+    "supervisor -> fetcher",
+    "fetcher: ok (crm=live, issues=0)",
+    "supervisor -> analyzer",
+    "analyzer: risk=60 (HIGH), anomalies=1",
+    "supervisor -> advisor",
+    "advisor: 4 recommendations",
+    "supervisor -> human_review",
+    "review: pending",
+    "supervisor -> finalize"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "client_id": "C999",
+  "client": null,
+  "status": "failed",
+  "advice": "NONE",
+  "risk": null,
+  "anomalies": [],
+  "recommendations": [],
+  "human_review": {},
+  "data_issues": [],
+  "crm_source": null,
+  "warnings": [],
+  "errors": [
+    "'client C999 not found'"
+  ],
+  "trace": [
+    "supervisor -> fetcher",
+    "fetcher: load failed",
+    "supervisor -> finalize"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "records": {
+    "C001": {
+      "advisor": "J. Alvarez",
+      "risk_tolerance": "moderate",
+      "investment_goal": "retire at 62",
+      "kyc_status": "valid",
+      "last_contact_date": "2026-08-30",
+      "open_tasks": []
+    },
+    "C002": {
+      "advisor": "J. Alvarez",
+      "risk_tolerance": "moderate",
+      "investment_goal": "wealth growth",
+      "kyc_status": "valid",
+      "last_contact_date": "2026-02-10",
+      "open_tasks": [
+        "Annual review overdue"
+      ]
+    },
+    "C003": {
+      "advisor": "S. Chen",
+      "risk_tolerance": "conservative",
+      "investment_goal": "capital preservation",
+      "kyc_status": "expired",
+      "last_contact_date": "2026-09-01",
+      "open_tasks": []
+    },
+    "C004": {
+      "advisor": "S. Chen",
+      "risk_tolerance": "moderate",
+      "investment_goal": "retirement income",
+      "kyc_status": "valid",
+      "last_contact_date": "2026-07-15",
+      "open_tasks": []
+    },
+    "C005": {
+      "advisor": "S. Chen",
+      "risk_tolerance": "moderate",
+      "kyc_status": "valid",
+      "last_contact_date": "2026-06-01",
+      "open_tasks": []
+    }
+  },
+  "simulate_failures": {
+    "C002": 2,
+    "C004": "always"
+  }
+}

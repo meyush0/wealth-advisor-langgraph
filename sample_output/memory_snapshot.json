@@ -1,0 +1,68 @@
+{
+  "C001": {
+    "runs": [
+      {
+        "score": 10,
+        "level": "LOW",
+        "anomalies": 2,
+        "review": "not_required"
+      }
+    ],
+    "crm": {
+      "advisor": "J. Alvarez",
+      "risk_tolerance": "moderate",
+      "investment_goal": "retire at 62",
+      "kyc_status": "valid",
+      "last_contact_date": "2026-08-30",
+      "open_tasks": []
+    }
+  },
+  "C002": {
+    "runs": [
+      {
+        "score": 60,
+        "level": "HIGH",
+        "anomalies": 1,
+        "review": "pending"
+      }
+    ],
+    "crm": {
+      "advisor": "J. Alvarez",
+      "risk_tolerance": "moderate",
+      "investment_goal": "wealth growth",
+      "kyc_status": "valid",
+      "last_contact_date": "2026-02-10",
+      "open_tasks": [
+        "Annual review overdue"
+      ]
+    }
+  },
+  "C003": {
+    "runs": [
+      {
+        "score": 25,
+        "level": "LOW",
+        "anomalies": 0,
+        "review": "pending"
+      }
+    ],
+    "crm": {
+      "advisor": "S. Chen",
+      "risk_tolerance": "conservative",
+      "investment_goal": "capital preservation",
+      "kyc_status": "expired",
+      "last_contact_date": "2026-09-01",
+      "open_tasks": []
+    }
+  },
+  "C004": {
+    "runs": [
+      {
+        "score": 0,
+        "level": "LOW",
+        "anomalies": 0,
+        "review": "pending"
+      }
+    ]
+  }
+}

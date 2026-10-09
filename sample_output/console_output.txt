@@ -1,0 +1,9 @@
+CLIENT STATUS                   RISK       ANOM REVIEW       ADVICE
+C001   completed                LOW 10     2    not_required RELEASED
+C002   completed_with_warnings  HIGH 60    1    pending      HELD_FOR_REVIEW
+C003   completed_with_warnings  LOW 25     0    pending      HELD_FOR_REVIEW
+C004   completed_with_warnings  LOW 0      0    pending      HELD_FOR_REVIEW
+C005   failed                   -          0    -            NONE
+       error: no usable holdings or transactions
+C999   failed                   -          0    -            NONE
+       error: 'client C999 not found'

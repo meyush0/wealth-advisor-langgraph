@@ -1,0 +1,51 @@
+{
+  "client_id": "C004",
+  "client": "David Okafor",
+  "status": "completed_with_warnings",
+  "advice": "HELD_FOR_REVIEW",
+  "risk": {
+    "score": 0,
+    "level": "LOW",
+    "parts": {
+      "concentration": 0,
+      "profile_mismatch": 0,
+      "anomalies": 0
+    },
+    "previous_score": null
+  },
+  "anomalies": [],
+  "recommendations": [
+    {
+      "priority": "LOW",
+      "title": "Confirm risk profile with client",
+      "why": "CRM unavailable; defaults assumed"
+    }
+  ],
+  "human_review": {
+    "reasons": [
+      "advice based on assumed default profile"
+    ],
+    "note": "no reviewer available",
+    "status": "pending"
+  },
+  "data_issues": [
+    "monthly_income missing"
+  ],
+  "crm_source": "default",
+  "warnings": [
+    "CRM down (CRM timeout / 503); no cache, using default profile - suitability unverified",
+    "no transactions: anomaly detection skipped"
+  ],
+  "errors": [],
+  "trace": [
+    "supervisor -> fetcher",
+    "fetcher: ok (crm=default, issues=1)",
+    "supervisor -> analyzer",
+    "analyzer: risk=0 (LOW), anomalies=0",
+    "supervisor -> advisor",
+    "advisor: 1 recommendations",
+    "supervisor -> human_review",
+    "review: pending",
+    "supervisor -> finalize"
+  ]
+}

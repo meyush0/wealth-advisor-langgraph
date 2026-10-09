@@ -1,0 +1,64 @@
+{
+  "client_id": "C003",
+  "client": "Elena Rossi",
+  "status": "completed_with_warnings",
+  "advice": "HELD_FOR_REVIEW",
+  "risk": {
+    "score": 25,
+    "level": "LOW",
+    "parts": {
+      "concentration": 0,
+      "profile_mismatch": 25.2,
+      "anomalies": 0
+    },
+    "previous_score": null
+  },
+  "anomalies": [],
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "title": "Rebalance toward target (max drift 33%)",
+      "why": "allocation drifted from target"
+    },
+    {
+      "priority": "HIGH",
+      "title": "Equity 65% exceeds 'conservative' risk tolerance",
+      "why": "suitability check required"
+    },
+    {
+      "priority": "HIGH",
+      "title": "KYC is 'expired'",
+      "why": "refresh KYC before executing any advice"
+    }
+  ],
+  "human_review": {
+    "reasons": [
+      "suitability/compliance issue"
+    ],
+    "note": "no reviewer available",
+    "status": "pending"
+  },
+  "data_issues": [
+    "holding GOLD: bad value 'N/A', dropped",
+    "txn C003-T0004: invalid/duplicate row, dropped",
+    "txn C003-T0008: invalid/duplicate row, dropped",
+    "txn C003-T0013: invalid/duplicate row, dropped",
+    "txn C003-X2: invalid/duplicate row, dropped",
+    "monthly_income missing",
+    "target_allocation sums to 1.10, rescaled"
+  ],
+  "crm_source": "live",
+  "warnings": [],
+  "errors": [],
+  "trace": [
+    "supervisor -> fetcher",
+    "fetcher: ok (crm=live, issues=7)",
+    "supervisor -> analyzer",
+    "analyzer: risk=25 (LOW), anomalies=0",
+    "supervisor -> advisor",
+    "advisor: 3 recommendations",
+    "supervisor -> human_review",
+    "review: pending",
+    "supervisor -> finalize"
+  ]
+}

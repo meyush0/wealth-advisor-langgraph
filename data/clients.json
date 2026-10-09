@@ -1,0 +1,3443 @@
+{
+  "clients": [
+    {
+      "client_id": "C001",
+      "name": "Priya Nair",
+      "age": 44,
+      "home_country": "US",
+      "currency": "USD",
+      "monthly_income": 12000,
+      "target_allocation": {
+        "equity": 0.55,
+        "bond": 0.3,
+        "cash": 0.05,
+        "alternative": 0.1
+      },
+      "portfolio": {
+        "holdings": [
+          {
+            "symbol": "VTI",
+            "asset_class": "equity",
+            "value": 380000,
+            "diversified": true
+          },
+          {
+            "symbol": "VXUS",
+            "asset_class": "equity",
+            "value": 150000,
+            "diversified": true
+          },
+          {
+            "symbol": "AAPL",
+            "asset_class": "equity",
+            "value": 95000,
+            "sector": "technology"
+          },
+          {
+            "symbol": "BND",
+            "asset_class": "bond",
+            "value": 420000,
+            "diversified": true
+          },
+          {
+            "symbol": "VNQ",
+            "asset_class": "alternative",
+            "value": 140000,
+            "diversified": true
+          },
+          {
+            "symbol": "CASH",
+            "asset_class": "cash",
+            "value": 75000,
+            "diversified": true
+          }
+        ]
+      },
+      "transactions": [
+        {
+          "id": "C001-T0001",
+          "date": "2026-04-01",
+          "amount": 12000,
+          "type": "credit",
+          "category": "salary",
+          "merchant": "Employer Payroll",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0002",
+          "date": "2026-04-02",
+          "amount": 2400,
+          "type": "debit",
+          "category": "housing",
+          "merchant": "Landlord LLC",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0003",
+          "date": "2026-04-05",
+          "amount": 15.99,
+          "type": "debit",
+          "category": "subscriptions",
+          "merchant": "StreamFlix",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0004",
+          "date": "2026-04-08",
+          "amount": 185.99,
+          "type": "debit",
+          "category": "utilities",
+          "merchant": "City Power & Water",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0005",
+          "date": "2026-04-03",
+          "amount": 111.91,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0006",
+          "date": "2026-04-10",
+          "amount": 69.77,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0007",
+          "date": "2026-04-24",
+          "amount": 111.85,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0008",
+          "date": "2026-04-05",
+          "amount": 101.33,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0009",
+          "date": "2026-04-03",
+          "amount": 66.56,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0010",
+          "date": "2026-04-19",
+          "amount": 102.14,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0011",
+          "date": "2026-04-09",
+          "amount": 110.12,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0012",
+          "date": "2026-04-20",
+          "amount": 89.37,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0013",
+          "date": "2026-04-21",
+          "amount": 41.69,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Bistro Roma",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0014",
+          "date": "2026-04-27",
+          "amount": 73.35,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Cafe Luna",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0015",
+          "date": "2026-04-13",
+          "amount": 41.67,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Taco Corner",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0016",
+          "date": "2026-04-27",
+          "amount": 45.2,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Bistro Roma",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0017",
+          "date": "2026-04-15",
+          "amount": 30.8,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Sushi Go",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0018",
+          "date": "2026-04-22",
+          "amount": 40.87,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Bistro Roma",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0019",
+          "date": "2026-04-26",
+          "amount": 37.3,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "MetroCard",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0020",
+          "date": "2026-04-15",
+          "amount": 21.31,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0021",
+          "date": "2026-04-23",
+          "amount": 43.98,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0022",
+          "date": "2026-04-21",
+          "amount": 26.08,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "MetroCard",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0023",
+          "date": "2026-04-04",
+          "amount": 45.77,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0024",
+          "date": "2026-05-01",
+          "amount": 12000,
+          "type": "credit",
+          "category": "salary",
+          "merchant": "Employer Payroll",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0025",
+          "date": "2026-05-02",
+          "amount": 2400,
+          "type": "debit",
+          "category": "housing",
+          "merchant": "Landlord LLC",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0026",
+          "date": "2026-05-05",
+          "amount": 15.99,
+          "type": "debit",
+          "category": "subscriptions",
+          "merchant": "StreamFlix",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0027",
+          "date": "2026-05-08",
+          "amount": 194.63,
+          "type": "debit",
+          "category": "utilities",
+          "merchant": "City Power & Water",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0028",
+          "date": "2026-05-10",
+          "amount": 120.65,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0029",
+          "date": "2026-05-11",
+          "amount": 91.74,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0030",
+          "date": "2026-05-08",
+          "amount": 85.91,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0031",
+          "date": "2026-05-24",
+          "amount": 78.69,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0032",
+          "date": "2026-05-23",
+          "amount": 65.0,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0033",
+          "date": "2026-05-08",
+          "amount": 97.39,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0034",
+          "date": "2026-05-08",
+          "amount": 92.36,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0035",
+          "date": "2026-05-23",
+          "amount": 108.17,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0036",
+          "date": "2026-05-24",
+          "amount": 44.46,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Bistro Roma",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0037",
+          "date": "2026-05-10",
+          "amount": 74.31,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Sushi Go",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0038",
+          "date": "2026-05-15",
+          "amount": 41.06,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Taco Corner",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0039",
+          "date": "2026-05-21",
+          "amount": 77.58,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Sushi Go",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0040",
+          "date": "2026-05-09",
+          "amount": 64.33,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Cafe Luna",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0041",
+          "date": "2026-05-23",
+          "amount": 52.53,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Sushi Go",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0042",
+          "date": "2026-05-07",
+          "amount": 28.36,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "FuelUp",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0043",
+          "date": "2026-05-20",
+          "amount": 29.04,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "FuelUp",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0044",
+          "date": "2026-05-16",
+          "amount": 55.71,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0045",
+          "date": "2026-05-14",
+          "amount": 27.21,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "MetroCard",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0046",
+          "date": "2026-05-19",
+          "amount": 38.73,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "MetroCard",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0047",
+          "date": "2026-06-01",
+          "amount": 12000,
+          "type": "credit",
+          "category": "salary",
+          "merchant": "Employer Payroll",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0048",
+          "date": "2026-06-02",
+          "amount": 2400,
+          "type": "debit",
+          "category": "housing",
+          "merchant": "Landlord LLC",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0049",
+          "date": "2026-06-05",
+          "amount": 15.99,
+          "type": "debit",
+          "category": "subscriptions",
+          "merchant": "StreamFlix",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0050",
+          "date": "2026-06-08",
+          "amount": 191.53,
+          "type": "debit",
+          "category": "utilities",
+          "merchant": "City Power & Water",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0051",
+          "date": "2026-06-07",
+          "amount": 103.92,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0052",
+          "date": "2026-06-16",
+          "amount": 101.75,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0053",
+          "date": "2026-06-15",
+          "amount": 101.71,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0054",
+          "date": "2026-06-19",
+          "amount": 77.6,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0055",
+          "date": "2026-06-03",
+          "amount": 107.62,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0056",
+          "date": "2026-06-24",
+          "amount": 121.94,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0057",
+          "date": "2026-06-27",
+          "amount": 104.87,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0058",
+          "date": "2026-06-12",
+          "amount": 90.43,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0059",
+          "date": "2026-06-03",
+          "amount": 82.23,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Sushi Go",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0060",
+          "date": "2026-06-19",
+          "amount": 70.72,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Bistro Roma",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0061",
+          "date": "2026-06-23",
+          "amount": 42.91,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Taco Corner",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0062",
+          "date": "2026-06-07",
+          "amount": 47.43,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Taco Corner",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0063",
+          "date": "2026-06-20",
+          "amount": 82.21,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Bistro Roma",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0064",
+          "date": "2026-06-22",
+          "amount": 44.45,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Bistro Roma",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0065",
+          "date": "2026-06-06",
+          "amount": 57.02,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0066",
+          "date": "2026-06-10",
+          "amount": 20.43,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "FuelUp",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0067",
+          "date": "2026-06-05",
+          "amount": 21.6,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0068",
+          "date": "2026-06-05",
+          "amount": 59.08,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "FuelUp",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0069",
+          "date": "2026-06-27",
+          "amount": 23.28,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "FuelUp",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0070",
+          "date": "2026-07-01",
+          "amount": 12000,
+          "type": "credit",
+          "category": "salary",
+          "merchant": "Employer Payroll",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0071",
+          "date": "2026-07-02",
+          "amount": 2400,
+          "type": "debit",
+          "category": "housing",
+          "merchant": "Landlord LLC",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0072",
+          "date": "2026-07-05",
+          "amount": 15.99,
+          "type": "debit",
+          "category": "subscriptions",
+          "merchant": "StreamFlix",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0073",
+          "date": "2026-07-08",
+          "amount": 181.88,
+          "type": "debit",
+          "category": "utilities",
+          "merchant": "City Power & Water",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0074",
+          "date": "2026-07-20",
+          "amount": 71.56,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0075",
+          "date": "2026-07-22",
+          "amount": 89.62,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0076",
+          "date": "2026-07-20",
+          "amount": 112.87,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0077",
+          "date": "2026-07-09",
+          "amount": 109.91,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0078",
+          "date": "2026-07-24",
+          "amount": 105.49,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0079",
+          "date": "2026-07-19",
+          "amount": 91.6,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0080",
+          "date": "2026-07-10",
+          "amount": 64.48,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0081",
+          "date": "2026-07-21",
+          "amount": 98.77,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0082",
+          "date": "2026-07-10",
+          "amount": 25.43,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Bistro Roma",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0083",
+          "date": "2026-07-10",
+          "amount": 29.04,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Bistro Roma",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0084",
+          "date": "2026-07-13",
+          "amount": 29.25,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Taco Corner",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0085",
+          "date": "2026-07-11",
+          "amount": 65.14,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Taco Corner",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0086",
+          "date": "2026-07-20",
+          "amount": 32.94,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Cafe Luna",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0087",
+          "date": "2026-07-10",
+          "amount": 72.08,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Cafe Luna",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0088",
+          "date": "2026-07-09",
+          "amount": 21.96,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "FuelUp",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0089",
+          "date": "2026-07-16",
+          "amount": 32.88,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0090",
+          "date": "2026-07-17",
+          "amount": 54.28,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "MetroCard",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0091",
+          "date": "2026-07-24",
+          "amount": 45.45,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "FuelUp",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0092",
+          "date": "2026-07-06",
+          "amount": 20.55,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "FuelUp",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0093",
+          "date": "2026-08-01",
+          "amount": 12000,
+          "type": "credit",
+          "category": "salary",
+          "merchant": "Employer Payroll",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0094",
+          "date": "2026-08-02",
+          "amount": 2400,
+          "type": "debit",
+          "category": "housing",
+          "merchant": "Landlord LLC",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0095",
+          "date": "2026-08-05",
+          "amount": 15.99,
+          "type": "debit",
+          "category": "subscriptions",
+          "merchant": "StreamFlix",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0096",
+          "date": "2026-08-08",
+          "amount": 178.48,
+          "type": "debit",
+          "category": "utilities",
+          "merchant": "City Power & Water",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0097",
+          "date": "2026-08-06",
+          "amount": 77.41,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0098",
+          "date": "2026-08-20",
+          "amount": 91.4,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0099",
+          "date": "2026-08-08",
+          "amount": 79.5,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0100",
+          "date": "2026-08-05",
+          "amount": 91.02,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0101",
+          "date": "2026-08-06",
+          "amount": 63.54,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0102",
+          "date": "2026-08-03",
+          "amount": 127.83,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0103",
+          "date": "2026-08-08",
+          "amount": 88.45,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0104",
+          "date": "2026-08-09",
+          "amount": 120.53,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0105",
+          "date": "2026-08-08",
+          "amount": 47.74,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Cafe Luna",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0106",
+          "date": "2026-08-11",
+          "amount": 80.59,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Cafe Luna",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0107",
+          "date": "2026-08-12",
+          "amount": 50.38,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Cafe Luna",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0108",
+          "date": "2026-08-07",
+          "amount": 36.39,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Taco Corner",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0109",
+          "date": "2026-08-04",
+          "amount": 59.75,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Bistro Roma",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0110",
+          "date": "2026-08-26",
+          "amount": 43.82,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Bistro Roma",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0111",
+          "date": "2026-08-21",
+          "amount": 38.03,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "FuelUp",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0112",
+          "date": "2026-08-08",
+          "amount": 20.39,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "FuelUp",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0113",
+          "date": "2026-08-05",
+          "amount": 53.76,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "MetroCard",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0114",
+          "date": "2026-08-22",
+          "amount": 20.85,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "MetroCard",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0115",
+          "date": "2026-08-15",
+          "amount": 23.04,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "FuelUp",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0116",
+          "date": "2026-09-01",
+          "amount": 12000,
+          "type": "credit",
+          "category": "salary",
+          "merchant": "Employer Payroll",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0117",
+          "date": "2026-09-02",
+          "amount": 2400,
+          "type": "debit",
+          "category": "housing",
+          "merchant": "Landlord LLC",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0118",
+          "date": "2026-09-05",
+          "amount": 15.99,
+          "type": "debit",
+          "category": "subscriptions",
+          "merchant": "StreamFlix",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0119",
+          "date": "2026-09-08",
+          "amount": 176.16,
+          "type": "debit",
+          "category": "utilities",
+          "merchant": "City Power & Water",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0120",
+          "date": "2026-09-22",
+          "amount": 62.78,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0121",
+          "date": "2026-09-16",
+          "amount": 106.02,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0122",
+          "date": "2026-09-19",
+          "amount": 82.15,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0123",
+          "date": "2026-09-09",
+          "amount": 106.88,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0124",
+          "date": "2026-09-10",
+          "amount": 78.59,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0125",
+          "date": "2026-09-24",
+          "amount": 105.19,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0126",
+          "date": "2026-09-13",
+          "amount": 125.03,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0127",
+          "date": "2026-09-03",
+          "amount": 92.08,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0128",
+          "date": "2026-09-06",
+          "amount": 29.4,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Taco Corner",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0129",
+          "date": "2026-09-19",
+          "amount": 40.91,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Sushi Go",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0130",
+          "date": "2026-09-05",
+          "amount": 77.76,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Sushi Go",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0131",
+          "date": "2026-09-12",
+          "amount": 34.46,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Sushi Go",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0132",
+          "date": "2026-09-22",
+          "amount": 84.03,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Bistro Roma",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0133",
+          "date": "2026-09-24",
+          "amount": 74.03,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Sushi Go",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0134",
+          "date": "2026-09-24",
+          "amount": 22.35,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "MetroCard",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0135",
+          "date": "2026-09-11",
+          "amount": 22.85,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "MetroCard",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0136",
+          "date": "2026-09-26",
+          "amount": 41.24,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0137",
+          "date": "2026-09-12",
+          "amount": 43.4,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "FuelUp",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0138",
+          "date": "2026-09-13",
+          "amount": 26.55,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "FuelUp",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0139",
+          "date": "2026-08-22",
+          "amount": 520.0,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0140",
+          "date": "2026-09-05",
+          "amount": 86.4,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Trattoria Verde",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0141",
+          "date": "2026-09-06",
+          "amount": 86.4,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Trattoria Verde",
+          "country": "US"
+        },
+        {
+          "id": "C001-T0142",
+          "date": "2026-09-19",
+          "amount": 1250.0,
+          "type": "debit",
+          "category": "travel",
+          "merchant": "Gulf Stay Hotel",
+          "country": "AE"
+        }
+      ]
+    },
+    {
+      "client_id": "C002",
+      "name": "Marcus Webb",
+      "age": 38,
+      "home_country": "US",
+      "currency": "USD",
+      "monthly_income": 8500,
+      "target_allocation": {
+        "equity": 0.6,
+        "bond": 0.25,
+        "cash": 0.1,
+        "alternative": 0.05
+      },
+      "portfolio": {
+        "holdings": [
+          {
+            "symbol": "ACME",
+            "asset_class": "equity",
+            "value": 820000,
+            "sector": "technology"
+          },
+          {
+            "symbol": "VTI",
+            "asset_class": "equity",
+            "value": 40000,
+            "diversified": true
+          },
+          {
+            "symbol": "BND",
+            "asset_class": "bond",
+            "value": 100000,
+            "diversified": true
+          },
+          {
+            "symbol": "CASH",
+            "asset_class": "cash",
+            "value": 20000,
+            "diversified": true
+          }
+        ]
+      },
+      "transactions": [
+        {
+          "id": "C002-T0001",
+          "date": "2026-04-01",
+          "amount": 8500,
+          "type": "credit",
+          "category": "salary",
+          "merchant": "Employer Payroll",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0002",
+          "date": "2026-04-02",
+          "amount": 2100,
+          "type": "debit",
+          "category": "housing",
+          "merchant": "Landlord LLC",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0003",
+          "date": "2026-04-05",
+          "amount": 15.99,
+          "type": "debit",
+          "category": "subscriptions",
+          "merchant": "StreamFlix",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0004",
+          "date": "2026-04-08",
+          "amount": 191.32,
+          "type": "debit",
+          "category": "utilities",
+          "merchant": "City Power & Water",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0005",
+          "date": "2026-04-19",
+          "amount": 94.2,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0006",
+          "date": "2026-04-05",
+          "amount": 104.4,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0007",
+          "date": "2026-04-04",
+          "amount": 60.25,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0008",
+          "date": "2026-04-23",
+          "amount": 128.59,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0009",
+          "date": "2026-04-26",
+          "amount": 90.93,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0010",
+          "date": "2026-04-16",
+          "amount": 99.26,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0011",
+          "date": "2026-04-05",
+          "amount": 126.15,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0012",
+          "date": "2026-04-07",
+          "amount": 98.19,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0013",
+          "date": "2026-04-21",
+          "amount": 58.15,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Cafe Luna",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0014",
+          "date": "2026-04-07",
+          "amount": 27.51,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Sushi Go",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0015",
+          "date": "2026-04-04",
+          "amount": 78.94,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Taco Corner",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0016",
+          "date": "2026-04-24",
+          "amount": 39.97,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Bistro Roma",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0017",
+          "date": "2026-04-14",
+          "amount": 71.81,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Cafe Luna",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0018",
+          "date": "2026-04-22",
+          "amount": 69.97,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Taco Corner",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0019",
+          "date": "2026-04-08",
+          "amount": 59.0,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "MetroCard",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0020",
+          "date": "2026-04-16",
+          "amount": 19.04,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "FuelUp",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0021",
+          "date": "2026-04-13",
+          "amount": 50.86,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0022",
+          "date": "2026-04-24",
+          "amount": 54.29,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "MetroCard",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0023",
+          "date": "2026-04-11",
+          "amount": 24.69,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "FuelUp",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0024",
+          "date": "2026-05-01",
+          "amount": 8500,
+          "type": "credit",
+          "category": "salary",
+          "merchant": "Employer Payroll",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0025",
+          "date": "2026-05-02",
+          "amount": 2100,
+          "type": "debit",
+          "category": "housing",
+          "merchant": "Landlord LLC",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0026",
+          "date": "2026-05-05",
+          "amount": 15.99,
+          "type": "debit",
+          "category": "subscriptions",
+          "merchant": "StreamFlix",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0027",
+          "date": "2026-05-08",
+          "amount": 172.7,
+          "type": "debit",
+          "category": "utilities",
+          "merchant": "City Power & Water",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0028",
+          "date": "2026-05-04",
+          "amount": 120.1,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0029",
+          "date": "2026-05-09",
+          "amount": 117.16,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0030",
+          "date": "2026-05-14",
+          "amount": 81.36,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0031",
+          "date": "2026-05-10",
+          "amount": 61.66,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0032",
+          "date": "2026-05-15",
+          "amount": 82.98,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0033",
+          "date": "2026-05-27",
+          "amount": 79.54,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0034",
+          "date": "2026-05-19",
+          "amount": 87.98,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0035",
+          "date": "2026-05-13",
+          "amount": 125.75,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0036",
+          "date": "2026-05-11",
+          "amount": 35.71,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Sushi Go",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0037",
+          "date": "2026-05-04",
+          "amount": 31.5,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Cafe Luna",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0038",
+          "date": "2026-05-14",
+          "amount": 68.71,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Sushi Go",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0039",
+          "date": "2026-05-16",
+          "amount": 61.37,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Bistro Roma",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0040",
+          "date": "2026-05-15",
+          "amount": 78.97,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Taco Corner",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0041",
+          "date": "2026-05-11",
+          "amount": 27.66,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Cafe Luna",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0042",
+          "date": "2026-05-03",
+          "amount": 39.84,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "FuelUp",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0043",
+          "date": "2026-05-24",
+          "amount": 48.22,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "FuelUp",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0044",
+          "date": "2026-05-26",
+          "amount": 46.17,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0045",
+          "date": "2026-05-16",
+          "amount": 20.94,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "FuelUp",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0046",
+          "date": "2026-05-13",
+          "amount": 44.17,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "FuelUp",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0047",
+          "date": "2026-06-01",
+          "amount": 8500,
+          "type": "credit",
+          "category": "salary",
+          "merchant": "Employer Payroll",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0048",
+          "date": "2026-06-02",
+          "amount": 2100,
+          "type": "debit",
+          "category": "housing",
+          "merchant": "Landlord LLC",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0049",
+          "date": "2026-06-05",
+          "amount": 15.99,
+          "type": "debit",
+          "category": "subscriptions",
+          "merchant": "StreamFlix",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0050",
+          "date": "2026-06-08",
+          "amount": 191.2,
+          "type": "debit",
+          "category": "utilities",
+          "merchant": "City Power & Water",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0051",
+          "date": "2026-06-26",
+          "amount": 123.0,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0052",
+          "date": "2026-06-12",
+          "amount": 106.68,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0053",
+          "date": "2026-06-15",
+          "amount": 108.8,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0054",
+          "date": "2026-06-07",
+          "amount": 73.43,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0055",
+          "date": "2026-06-15",
+          "amount": 107.41,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0056",
+          "date": "2026-06-22",
+          "amount": 99.84,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0057",
+          "date": "2026-06-20",
+          "amount": 118.36,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0058",
+          "date": "2026-06-12",
+          "amount": 74.71,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0059",
+          "date": "2026-06-22",
+          "amount": 64.28,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Cafe Luna",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0060",
+          "date": "2026-06-17",
+          "amount": 51.53,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Taco Corner",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0061",
+          "date": "2026-06-19",
+          "amount": 53.39,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Taco Corner",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0062",
+          "date": "2026-06-24",
+          "amount": 30.09,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Sushi Go",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0063",
+          "date": "2026-06-05",
+          "amount": 74.11,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Taco Corner",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0064",
+          "date": "2026-06-24",
+          "amount": 43.63,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Taco Corner",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0065",
+          "date": "2026-06-07",
+          "amount": 19.03,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "MetroCard",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0066",
+          "date": "2026-06-18",
+          "amount": 43.67,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "MetroCard",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0067",
+          "date": "2026-06-17",
+          "amount": 35.41,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "FuelUp",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0068",
+          "date": "2026-06-21",
+          "amount": 26.17,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "FuelUp",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0069",
+          "date": "2026-06-15",
+          "amount": 38.76,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "MetroCard",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0070",
+          "date": "2026-07-01",
+          "amount": 8500,
+          "type": "credit",
+          "category": "salary",
+          "merchant": "Employer Payroll",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0071",
+          "date": "2026-07-02",
+          "amount": 2100,
+          "type": "debit",
+          "category": "housing",
+          "merchant": "Landlord LLC",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0072",
+          "date": "2026-07-05",
+          "amount": 15.99,
+          "type": "debit",
+          "category": "subscriptions",
+          "merchant": "StreamFlix",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0073",
+          "date": "2026-07-08",
+          "amount": 173.69,
+          "type": "debit",
+          "category": "utilities",
+          "merchant": "City Power & Water",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0074",
+          "date": "2026-07-25",
+          "amount": 60.39,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0075",
+          "date": "2026-07-27",
+          "amount": 89.76,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0076",
+          "date": "2026-07-25",
+          "amount": 96.26,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0077",
+          "date": "2026-07-20",
+          "amount": 77.44,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0078",
+          "date": "2026-07-17",
+          "amount": 69.33,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0079",
+          "date": "2026-07-24",
+          "amount": 97.18,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0080",
+          "date": "2026-07-22",
+          "amount": 82.21,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0081",
+          "date": "2026-07-22",
+          "amount": 117.05,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0082",
+          "date": "2026-07-16",
+          "amount": 74.83,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Cafe Luna",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0083",
+          "date": "2026-07-08",
+          "amount": 69.62,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Cafe Luna",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0084",
+          "date": "2026-07-17",
+          "amount": 40.55,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Taco Corner",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0085",
+          "date": "2026-07-23",
+          "amount": 41.64,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Cafe Luna",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0086",
+          "date": "2026-07-23",
+          "amount": 39.35,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Cafe Luna",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0087",
+          "date": "2026-07-05",
+          "amount": 67.81,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Taco Corner",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0088",
+          "date": "2026-07-11",
+          "amount": 32.11,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "FuelUp",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0089",
+          "date": "2026-07-05",
+          "amount": 23.81,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "MetroCard",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0090",
+          "date": "2026-07-15",
+          "amount": 47.15,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "FuelUp",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0091",
+          "date": "2026-07-09",
+          "amount": 20.7,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0092",
+          "date": "2026-07-13",
+          "amount": 40.79,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0093",
+          "date": "2026-08-01",
+          "amount": 8500,
+          "type": "credit",
+          "category": "salary",
+          "merchant": "Employer Payroll",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0094",
+          "date": "2026-08-02",
+          "amount": 2100,
+          "type": "debit",
+          "category": "housing",
+          "merchant": "Landlord LLC",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0095",
+          "date": "2026-08-05",
+          "amount": 15.99,
+          "type": "debit",
+          "category": "subscriptions",
+          "merchant": "StreamFlix",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0096",
+          "date": "2026-08-08",
+          "amount": 171.56,
+          "type": "debit",
+          "category": "utilities",
+          "merchant": "City Power & Water",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0097",
+          "date": "2026-08-16",
+          "amount": 87.26,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0098",
+          "date": "2026-08-25",
+          "amount": 61.37,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0099",
+          "date": "2026-08-15",
+          "amount": 93.39,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0100",
+          "date": "2026-08-12",
+          "amount": 112.74,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0101",
+          "date": "2026-08-20",
+          "amount": 112.33,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0102",
+          "date": "2026-08-22",
+          "amount": 122.85,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0103",
+          "date": "2026-08-10",
+          "amount": 79.11,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0104",
+          "date": "2026-08-03",
+          "amount": 87.22,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0105",
+          "date": "2026-08-24",
+          "amount": 72.89,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Taco Corner",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0106",
+          "date": "2026-08-17",
+          "amount": 80.17,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Bistro Roma",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0107",
+          "date": "2026-08-15",
+          "amount": 60.51,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Bistro Roma",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0108",
+          "date": "2026-08-05",
+          "amount": 63.56,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Taco Corner",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0109",
+          "date": "2026-08-17",
+          "amount": 35.9,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Sushi Go",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0110",
+          "date": "2026-08-15",
+          "amount": 44.64,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Cafe Luna",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0111",
+          "date": "2026-08-13",
+          "amount": 32.18,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0112",
+          "date": "2026-08-11",
+          "amount": 49.58,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0113",
+          "date": "2026-08-11",
+          "amount": 53.07,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0114",
+          "date": "2026-08-03",
+          "amount": 49.46,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "MetroCard",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0115",
+          "date": "2026-08-14",
+          "amount": 27.42,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "MetroCard",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0116",
+          "date": "2026-09-01",
+          "amount": 8500,
+          "type": "credit",
+          "category": "salary",
+          "merchant": "Employer Payroll",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0117",
+          "date": "2026-09-02",
+          "amount": 2100,
+          "type": "debit",
+          "category": "housing",
+          "merchant": "Landlord LLC",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0118",
+          "date": "2026-09-05",
+          "amount": 15.99,
+          "type": "debit",
+          "category": "subscriptions",
+          "merchant": "StreamFlix",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0119",
+          "date": "2026-09-08",
+          "amount": 189.53,
+          "type": "debit",
+          "category": "utilities",
+          "merchant": "City Power & Water",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0120",
+          "date": "2026-09-23",
+          "amount": 62.82,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0121",
+          "date": "2026-09-10",
+          "amount": 73.96,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0122",
+          "date": "2026-09-22",
+          "amount": 70.67,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0123",
+          "date": "2026-09-18",
+          "amount": 106.86,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0124",
+          "date": "2026-09-09",
+          "amount": 92.55,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0125",
+          "date": "2026-09-27",
+          "amount": 85.82,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0126",
+          "date": "2026-09-22",
+          "amount": 127.46,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0127",
+          "date": "2026-09-06",
+          "amount": 114.45,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0128",
+          "date": "2026-09-12",
+          "amount": 31.49,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Bistro Roma",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0129",
+          "date": "2026-09-12",
+          "amount": 59.55,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Cafe Luna",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0130",
+          "date": "2026-09-15",
+          "amount": 81.49,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Taco Corner",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0131",
+          "date": "2026-09-05",
+          "amount": 60.53,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Taco Corner",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0132",
+          "date": "2026-09-06",
+          "amount": 66.83,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Sushi Go",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0133",
+          "date": "2026-09-24",
+          "amount": 61.02,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Bistro Roma",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0134",
+          "date": "2026-09-21",
+          "amount": 50.87,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0135",
+          "date": "2026-09-20",
+          "amount": 35.99,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0136",
+          "date": "2026-09-05",
+          "amount": 39.25,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0137",
+          "date": "2026-09-03",
+          "amount": 53.68,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0138",
+          "date": "2026-09-06",
+          "amount": 36.21,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0139",
+          "date": "2026-09-12",
+          "amount": 4200.0,
+          "type": "debit",
+          "category": "crypto",
+          "merchant": "CoinBridge Exchange",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0140",
+          "date": "2026-09-21",
+          "amount": 20.89,
+          "type": "debit",
+          "category": "online_services",
+          "merchant": "Merchant-0",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0141",
+          "date": "2026-09-21",
+          "amount": 25.72,
+          "type": "debit",
+          "category": "online_services",
+          "merchant": "Merchant-1",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0142",
+          "date": "2026-09-21",
+          "amount": 22.68,
+          "type": "debit",
+          "category": "online_services",
+          "merchant": "Merchant-2",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0143",
+          "date": "2026-09-21",
+          "amount": 15.89,
+          "type": "debit",
+          "category": "online_services",
+          "merchant": "Merchant-3",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0144",
+          "date": "2026-09-21",
+          "amount": 23.34,
+          "type": "debit",
+          "category": "online_services",
+          "merchant": "Merchant-4",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0145",
+          "date": "2026-09-21",
+          "amount": 29.14,
+          "type": "debit",
+          "category": "online_services",
+          "merchant": "Merchant-5",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0146",
+          "date": "2026-09-21",
+          "amount": 11.75,
+          "type": "debit",
+          "category": "online_services",
+          "merchant": "Merchant-6",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0147",
+          "date": "2026-09-21",
+          "amount": 25.2,
+          "type": "debit",
+          "category": "online_services",
+          "merchant": "Merchant-7",
+          "country": "US"
+        },
+        {
+          "id": "C002-T0148",
+          "date": "2026-09-21",
+          "amount": 18.45,
+          "type": "debit",
+          "category": "online_services",
+          "merchant": "Merchant-8",
+          "country": "US"
+        }
+      ]
+    },
+    {
+      "client_id": "C003",
+      "name": "Elena Rossi",
+      "age": 61,
+      "target_allocation": {
+        "equity": 0.35,
+        "bond": 0.45,
+        "cash": 0.2,
+        "alternative": 0.1
+      },
+      "portfolio": {
+        "holdings": [
+          {
+            "symbol": "VTI",
+            "asset_class": "Equities",
+            "value": "450,000",
+            "diversified": true
+          },
+          {
+            "symbol": "BND",
+            "asset_class": "bonds",
+            "value": 150000,
+            "diversified": true
+          },
+          {
+            "symbol": "GOLD",
+            "asset_class": "alternative",
+            "value": "N/A"
+          },
+          {
+            "symbol": "MMF",
+            "asset_class": "cash",
+            "value": 60000,
+            "diversified": true
+          },
+          {
+            "symbol": "MYSTERY",
+            "value": 30000
+          }
+        ]
+      },
+      "transactions": [
+        {
+          "id": "C003-T0001",
+          "date": "2026-07-01",
+          "amount": "$6,000.00",
+          "type": "credit",
+          "category": "salary",
+          "merchant": "Employer Payroll",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0002",
+          "date": "2026-07-02",
+          "amount": 1500,
+          "type": "debit",
+          "category": "housing",
+          "merchant": "Landlord LLC",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0003",
+          "date": "2026-07-05",
+          "amount": 15.99,
+          "type": "debit",
+          "category": "subscriptions",
+          "merchant": "StreamFlix",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0004",
+          "date": "31/02/2026",
+          "amount": 182.09,
+          "type": "debit",
+          "category": "utilities",
+          "merchant": "City Power & Water",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0005",
+          "date": "2026-07-16",
+          "amount": 117.8,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0006",
+          "date": "15-Aug-2026",
+          "amount": 82.56,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0007",
+          "date": "2026-07-05",
+          "amount": 79.52,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0008",
+          "date": "2026-07-10",
+          "amount": "abc",
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0009",
+          "date": "2026-07-22",
+          "amount": 106.77,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "date": "2026-07-03",
+          "amount": 94.6,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0011",
+          "date": "2026-07-08",
+          "amount": 94.13,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0012",
+          "date": "2026-07-11",
+          "amount": 83.82,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0013",
+          "date": "2026-07-25",
+          "amount": 77.81,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Bistro Roma",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0014",
+          "date": "2026-07-19",
+          "amount": 81.88,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Bistro Roma",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0015",
+          "date": "2026-07-10",
+          "amount": 68.2,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Cafe Luna",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0016",
+          "date": "2026-07-20",
+          "amount": 70.49,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Cafe Luna",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0017",
+          "date": "2026-07-23",
+          "amount": 67.71,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Cafe Luna",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0018",
+          "date": "2026-07-03",
+          "amount": "$30.58",
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Taco Corner",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0019",
+          "date": "2026-07-15",
+          "amount": 47.06,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0020",
+          "date": "2026-07-24",
+          "amount": 42.43,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0021",
+          "date": "2026-07-20",
+          "amount": 40.3,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0022",
+          "date": "2026-07-26",
+          "amount": 41.12,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0023",
+          "date": "2026-07-25",
+          "amount": 37.06,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0024",
+          "date": "2026-08-01",
+          "amount": 6000,
+          "type": "credit",
+          "category": "salary",
+          "merchant": "Employer Payroll",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0025",
+          "date": "2026-08-02",
+          "amount": 1500,
+          "type": "debit",
+          "category": "housing",
+          "merchant": "Landlord LLC",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0026",
+          "date": "2026-08-05",
+          "amount": 15.99,
+          "type": "debit",
+          "category": "subscriptions",
+          "merchant": "StreamFlix",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0027",
+          "date": "2026-08-08",
+          "amount": 176.29,
+          "type": "debit",
+          "category": "utilities",
+          "merchant": "City Power & Water",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0028",
+          "date": "2026-08-06",
+          "amount": 110.49,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0029",
+          "date": "2026-08-06",
+          "amount": 112.0,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0030",
+          "date": "2026-08-08",
+          "amount": 73.41,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0031",
+          "date": "2026-08-18",
+          "amount": 79.35,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0032",
+          "date": "2026-08-27",
+          "amount": 96.72,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0033",
+          "date": "2026-08-06",
+          "amount": 118.28,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0034",
+          "date": "2026-08-10",
+          "amount": 85.26,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0035",
+          "date": "2026-08-03",
+          "amount": "$109.56",
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0036",
+          "date": "2026-08-11",
+          "amount": 27.73,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Bistro Roma",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0037",
+          "date": "2026-08-20",
+          "amount": 42.53,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Taco Corner",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0038",
+          "date": "2026-08-23",
+          "amount": 77.11,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Cafe Luna",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0039",
+          "date": "2026-08-06",
+          "amount": 77.36,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Sushi Go",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0040",
+          "date": "2026-08-18",
+          "amount": 53.72,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Sushi Go",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0041",
+          "date": "2026-08-08",
+          "amount": 82.93,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Sushi Go",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0042",
+          "date": "2026-08-18",
+          "amount": 22.79,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "MetroCard",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0043",
+          "date": "2026-08-15",
+          "amount": 38.65,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "FuelUp",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0044",
+          "date": "2026-08-23",
+          "amount": 46.83,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "MetroCard",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0045",
+          "date": "2026-08-07",
+          "amount": 52.07,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0046",
+          "date": "2026-08-05",
+          "amount": 59.74,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "MetroCard",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0047",
+          "date": "2026-09-01",
+          "amount": 6000,
+          "type": "credit",
+          "category": "salary",
+          "merchant": "Employer Payroll",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0048",
+          "date": "2026-09-02",
+          "amount": 1500,
+          "type": "debit",
+          "category": "housing",
+          "merchant": "Landlord LLC",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0049",
+          "date": "2026-09-05",
+          "amount": 15.99,
+          "type": "debit",
+          "category": "subscriptions",
+          "merchant": "StreamFlix",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0050",
+          "date": "2026-09-08",
+          "amount": 183.95,
+          "type": "debit",
+          "category": "utilities",
+          "merchant": "City Power & Water",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0051",
+          "date": "2026-09-16",
+          "amount": 102.44,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0052",
+          "date": "2026-09-10",
+          "amount": "$114.30",
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0053",
+          "date": "2026-09-17",
+          "amount": 123.6,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0054",
+          "date": "2026-09-21",
+          "amount": 129.3,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "GreenGrocer",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0055",
+          "date": "2026-09-21",
+          "amount": 103.47,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0056",
+          "date": "2026-09-26",
+          "amount": 66.95,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0057",
+          "date": "2026-09-23",
+          "amount": 74.77,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "Whole Foods",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0058",
+          "date": "2026-09-05",
+          "amount": 70.99,
+          "type": "debit",
+          "category": "groceries",
+          "merchant": "FreshMart",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0059",
+          "date": "2026-09-20",
+          "amount": 29.5,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Bistro Roma",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0060",
+          "date": "2026-09-16",
+          "amount": 52.03,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Cafe Luna",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0061",
+          "date": "2026-09-12",
+          "amount": 26.96,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Sushi Go",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0062",
+          "date": "2026-09-25",
+          "amount": 41.96,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Cafe Luna",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0063",
+          "date": "2026-09-05",
+          "amount": 66.24,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Sushi Go",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0064",
+          "date": "2026-09-23",
+          "amount": 60.39,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Taco Corner",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0065",
+          "date": "2026-09-16",
+          "amount": 22.82,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "MetroCard",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0066",
+          "date": "2026-09-23",
+          "amount": 24.26,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0067",
+          "date": "2026-09-07",
+          "amount": 21.0,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "MetroCard",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0068",
+          "date": "2026-09-12",
+          "amount": 42.99,
+          "type": "debit",
+          "category": "transport",
+          "merchant": "FuelUp",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0069",
+          "date": "2026-09-12",
+          "amount": "$36.44",
+          "type": "debit",
+          "category": "transport",
+          "merchant": "RideNow",
+          "country": "US"
+        },
+        {
+          "id": "C003-T0013",
+          "date": "2026-07-25",
+          "amount": 77.81,
+          "type": "debit",
+          "category": "dining",
+          "merchant": "Bistro Roma",
+          "country": "US"
+        },
+        {
+          "id": "C003-X1",
+          "date": "2026-09-14",
+          "amount": -45.2,
+          "category": "dining",
+          "merchant": "Cafe Luna"
+        },
+        {
+          "id": "C003-X2",
+          "date": "2026-09-15",
+          "amount": 300,
+          "category": "misc"
+        }
+      ]
+    },
+    {
+      "client_id": "C004",
+      "name": "David Okafor",
+      "age": 52,
+      "home_country": "US",
+      "currency": "USD",
+      "target_allocation": {
+        "equity": 0.5,
+        "bond": 0.35,
+        "cash": 0.15
+      },
+      "portfolio": {
+        "holdings": [
+          {
+            "symbol": "VTI",
+            "asset_class": "equity",
+            "value": 300000,
+            "diversified": true
+          },
+          {
+            "symbol": "BND",
+            "asset_class": "bond",
+            "value": 250000,
+            "diversified": true
+          },
+          {
+            "symbol": "CASH",
+            "asset_class": "cash",
+            "value": 90000,
+            "diversified": true
+          }
+        ]
+      },
+      "transactions": []
+    },
+    {
+      "client_id": "C005",
+      "name": "Hannah Lee",
+      "portfolio": {
+        "holdings": []
+      },
+      "transactions": null
+    }
+  ]
+}
